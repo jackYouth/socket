@@ -1,16 +1,16 @@
 {
-    "apps": [
-        {
-            "name": "websocket",
-            "script": "dist/app.js",
-            "watch": ["dist"],
-            "ignore_watch": ["node_modules"],
-            "cwd": "/data/release/qcloud-applet-websocket",
-            "exec_mode": "fork",
-            "env": {
-                "NODE_ENV": "production",
-                "PORT": 9595
-            }
-        }
-    ]
+  "apps": [
+    {
+      "name": "websocket",
+      "script": "/Users/suyandong/self/socket/剪刀石头布/server/dist/app.js",
+      "watch": ["dist"],
+      "ignore_watch": ["node_modules"],
+      "cwd": "/",
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 9595
+      }
+    }
+  ]
 }
